@@ -1,0 +1,482 @@
+ls
+mkdir CheatSheets
+ls
+cd .\CheatSheets\
+psql
+psql -h localhost -u postgres -W -p
+psql -U hr -W
+psql -v ON_ERROR_STOP=1
+psql -U hr -W
+psql -h localhost -U hr -d hr
+psql -h localhost -U hr -d hd
+psql -h localhost -U hr -d hr
+winget install JanDeDobbeleer.OhMyPosh -s winget
+oh-my-posh font install
+winget install JanDeDobbeleer.OhMyPosh -s winget
+oh-my-posh font install
+Install-Module -Name Terminal-Icons -Repository PSGallery
+$PROFILE
+code $PROFILE
+New-Item -Path $PROFILE -Type File -Force
+code $PROFILE
+Get-PoshThemes
+ls
+pwd
+ls
+cd .\providers\ls
+cd .\providers\ ls
+ls
+git clone https://github.com/ProgrammerZamanNow/belajar-php-oop.git .
+git clone https://github.com/ProgrammerZamanNow/belajar-php-8.git .
+php -v
+php .\NamedArgument.php
+composer init
+composer update
+composer dump-autoload
+composer update
+composer dump-autoload
+get-module
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -PredictionViewStyle InlineView
+get-module
+composer init
+composer update
+composer install
+php -s localhost:8080
+php -S localhost:8080
+php -v
+cd .\public\
+php -S localhost:8080
+cd .\public\
+php -S localhost:8080
+composer create-project laravel/laravel=9.1.5 .
+php artisan
+php artisan serve
+git init
+git add .
+git commit -m 'setup laravel project'
+php artisan serve
+php artisan make:test ContohTest
+php artisan make:test ContohTest --unit
+php artisan test
+php artisan make:test EnvirontmentTest
+export
+git bash
+bash
+env
+php artisan config:cache
+php artisan config:clear
+clear
+php artisan make:test DependencyInjectionTest
+npm i -g vsce
+composer require --dev barryvdh/laravel-ide-helper
+php artisan make:test ServiceContainerTest
+php artisan serve
+composer create-project laravel/laravel .
+php artisan migrate
+php artisan migrate:refresh
+php artisan make:migration create_posts_table
+php artisan migrate
+migrate:re
+php artisan migrate:refresh
+php artisan migrate
+php artisan migrate:refresh
+php artisan make:migration create_comments_table
+php artisan migrate
+php artisan serve
+php artisan make:model Post
+php artisan make:controller PostController
+php artisan make:resource PostResource
+php artisan make:resource PostDetailResource
+php artisan make:controller AuthenticationController
+composer require laravel/socialite
+php artisan make:migration create_providers_table
+php artisan make:model Provider
+php artisan route:clear
+php artisan serve
+php artisan route:clear
+php artisan serve
+php artisan migrate
+php artisan serve
+npm i -g @nestjs/cli
+nest new latihan-nest --strict .
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/test/app.e2e-spec.ts"
+npm start
+npm build
+npm run build
+node .\dist\main.js
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/app.controller.spec.ts" -t "AppController"
+cd "e:\projek-tes\nestjs"
+ ${env:NODE_OPTIONS}='--require "c:/Users/alwan/AppData/Local/Programs/Microsoft VS Code/resources/app/extensions/ms-vscode.js-debug/src/bootloader.js" --inspect-publish-uid=http'; ${env:VSCODE_INSPECTOR_OPTIONS}='{"inspectorIpc":"\\\\.\\pipe\\node-cdp.15256-73881bf7-1.sock","deferredMode":false,"waitForDebugger":"","execPath":"C:\\Program Files\\nodejs\\node.exe","onlyEntrypoint":false,"autoAttachMode":"always","fileCallback":"C:\\Users\\alwan\\AppData\\Local\\Temp\\node-debug-callback-d150d005608f7044"}'; & 'C:\Program Files\nodejs\node.exe' 'node_modules/jest/bin/jest.js' 'e:/projek-tes/nestjs/src/app.controller.spec.ts' '-t' 'AppController' '--runInBand' 
+npm start
+node -v
+npm start
+npm start:dev
+npm run start:dev
+npm i module-alias
+npm start
+npm i nodemon --save-dev
+npm start
+npm uninstall nodemon
+npm start:dev
+npm run start:dev
+npm run build
+npm run start:prod
+npm run build
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/app.controller.spec.ts" -t "AppController"
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/app.controller.spec.ts" -t "AppController"
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/test/app.e2e-spec.ts"
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/app.controller.spec.ts"
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/test/app.e2e-spec.ts" -t "AppController \(e2e\)"
+npm run test:e2e
+npm add dotenv
+npm run start:dev
+npm run start:dev
+npm i --save @nestjs/config
+npm install --save @nestjs/typeorm typeorm mysql2
+nest g module user
+nest g co user
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/user/user.controller.spec.ts" -t "UserController"
+npm run start:dev
+npm run start:dev
+npm i --save class-validator class-transformer
+npm start:dev
+npm run start:dev
+nest g s user
+cd "e:\projek-tes\nestjs"
+node "node_modules/jest/bin/jest.js" "e:/projek-tes/nestjs/src/user/user.controller.spec.ts" -t "UserController"
+nest g module comment
+nest g co comment
+nest g s comment --no-spec
+npm install --save @nestjs/typeorm typeorm mysql2
+npm add --save pg
+nest -v
+npm i
+npm i
+npm run start:dev
+nest g module user/auth
+nest g module users/auth
+npm i bcrypt
+npm i bcryptjs
+npm run start:dev
+npm i --save-dev @types/bcryptjs
+npm run start:dev
+npm install --save-dev @trivago/prettier-plugin-sort-imports
+npm i @ianvs/prettier-plugin-sort-imports --save-dev
+npm remove @trivago/prettier-plugin-sort-imports
+npm run build
+npm run start:prod
+npm i @trivago/prettier-plugin-sort-imports --save-dev
+npm run start:dev
+nest g module post/post
+nest g module models/post/post
+nest g module models/post
+npm run start:dev
+npm i bcrypt
+npm run start:dev
+nest g resource models/tes
+npm i
+npm run build
+npm start
+npm i -s @mikro-orm/core @mikro-orm/postgresql
+npm i -s @mikro-orm/nestjs
+npm run start:dev
+nest g resource modules/book
+npm run start:dev
+npm i
+npm i -g pnpm
+typescript -v
+pnpm i
+npm i
+npm i degit -g
+degit -v
+git clone https://github.com/jayantpatiltech/nestjs-swagger-api.git .
+git origin
+git --help
+git remove remove origin
+git remove origin
+git remote --help
+git remote remove origin
+git remote
+git --help
+git branch
+git branch -a
+git clone https://github.com/share424/belajar-nestjs.git .
+git branch
+git branch -a
+git branch
+pnpm i
+ npm install prisma --save-dev
+npx prisma init
+npx prisma migrate
+npx prisma db push
+$ npm install @prisma/client
+ npm install @prisma/client
+npm run start:dev
+npx prisma generate
+npm run start:dev
+npx prisma generate
+npm run build
+npx prisma generate
+npm run start:dev
+npx prisma generate
+npm run start:dev
+npx prisma generate
+npm run start:dev
+npx prisma migrate dev --name first-migration
+npm run start:dev
+nest g module auth
+nest g resource auth
+npm i @nestjs/jwt
+npm run start:prod
+npm run start:dev
+prisma db push
+npx prisma db push
+npx prisma generate
+npx prisma db push
+npx prisma generate
+npm run start:dev
+npm i @nestjs/passport passport-jwt
+npm i --save-dev @types/passport-jwt
+npm i passport-anonymous
+npm i --save-dev @types/passport-anonymous
+npx prisma generate
+npm run start:dev
+npx prisma generate
+npm run start:dev
+npx prisma db push
+npx prisma generate
+npm run start:dev
+npm run build
+npm run start:prod
+npm rebuild
+npm run build
+npm remove bcrypt @types/bcrypt
+npm run build
+nest build
+npm start
+npm run start:dev
+nest -v
+nest
+degit -v
+npm i -g degit
+degit -v
+degit
+degit https://github.com/stuyy/nestjs-crash-course
+npm i
+nest g resource
+node -v
+npm i passport-local
+npx prisma generate
+npx prisma db push
+npm run start:dev
+npx prisma db push
+npx prisma generate
+npx prisma db push
+npm run start:dev
+npm i --save-dev @swc/cli @swc/core
+console-ninja npm run start:dev
+console-ninja
+console-ninja -v
+npm run start:dev
+npm i --save-dev typescript-transform-paths
+npm run start:dev
+npm install vite vite-plugin-node -D
+npm run dev
+npx prisma generate
+npm run dev
+npm run start:dev
+npm run dev
+npm i --save-dev @swc/core
+npm run dev
+npm run build
+npm run dev
+npm start
+npm run dev
+npm run build
+npm run start:prod
+npm run dev
+npm run dev
+npm run start:dev
+npm run dev
+npm run start:dev
+npm run dev
+nest -v
+npm run start:dev
+npm i
+npm run start:dev
+npm i
+npm run start:dev
+npm run dev
+npm run start:dev
+npm run dev
+npm i vite-plugin-checker -D
+npm run dev
+npm run start:dev
+npm run dev
+npm i vite-plugin-restart -D
+npm run dev
+npm remove vite-plugin-restart
+npm run dev
+npm i roolup-plugin-swc3 vavite -D
+npm i rollup-plugin-swc3 vavite -D
+npm run dev
+npm i
+npm i vavite -D
+npm run dev
+npm remove vavite
+npm i vavite -D
+npm run dev
+npm i
+npm run dev
+npm i vite-plugin-checker -D
+npm run dev
+npm run start:dev
+pnpm run build
+npm start
+pnpm start
+npm start
+pnpm dev
+pnpm build
+npm start
+npm run start:dev
+npm i cookie-parser
+npm i -D @types/cookie-parser
+npm run start:dev
+npm i @total-typescript/ts-reset -D
+npm run start:dev
+git --help
+git branch
+git branch -a
+git merge Tes-Custom-Auth
+npm i
+npm run start:dev
+npx prisma db push
+npx prisma generate
+npm run start:dev
+npm i node-device-detector
+npm run start:dev
+npx prisma db push
+npx prisma generate
+npm run start:dev
+npm i passport-google-oauth20
+npm i @types/passport-google-oauth20 -D
+nest
+npm run start:dev
+npx prisma generate
+npm run start:dev
+npx prisma generate
+npx prisma db push
+npm run start:dev
+npx prisma db push
+npm run start:dev
+npx prisma generate
+npm run start:dev
+npm run dev
+npm i vite-node
+npm i vite-node -D
+npm run dev
+npm remove vite-node
+npm run dev
+npm i --save @nestjs/swagger
+npm run dev
+npm run start:dev
+npm run dev
+npm run start:dev
+npm run dev
+npm run generate
+npx prisma generate
+npm run dev
+npx prisma generate
+npm run dev
+npx prisma generate
+npx prisma db push
+npx prisma generate
+npm run dev
+npm run start:dev
+npm run dev
+npm run start:dev
+npm run dev
+npm run start:dev
+npm run dev
+prisma db push
+npx prisma db push
+npm run dev
+npx prisma db push
+npx prisma generate
+npm run dev
+npx prisma db push
+npx prisma generate
+npm run dev
+npx prisma db push
+npm run dev
+npx prisma generate
+npm run dev
+npx prisma generate
+npm run dev
+npm run start:dev
+npm run dev
+npx prisma studio
+degit -v
+degit https://github.com/ibnux/data-indonesia
+npx prisma db push
+npx prisma generate
+npx prisma db push
+npm run seed
+npm run seed
+npx prisma studio
+npm run seed
+npm run dev
+npm run build
+npm start
+npm run start:dev
+npm run dev
+npm run seed
+npx prisma db push
+npx prisma generate
+npm run dev
+npx prisma generate
+npx prisma db push
+npx prisma studio
+npx prisma db push
+npx prisma generate
+npm run seed
+npm run dev
+npx prisma generate
+npm run seed
+npx prisma studio
+npx prisma generate
+npx prisma db push
+npx prisma generate
+npm run seed
+npx prisma generate
+npx prisma db push
+npx prisma studio
+npm run seed
+npm run dev
+npm run seed
+npx prisma db push
+npm run seed
+npx prisma studio
+npm run dev
+npm run seed
+npm run dev
+npm run seed
+npx prisma generate
+npx prisma db push
+npm run seed
+npm i -D tsconfig-paths
+npm run seed
+npx prisma studio
+npm run db:reset
+npm run db:reset
+npx prisma studio
+npm run dev
